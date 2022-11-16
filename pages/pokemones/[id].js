@@ -6,7 +6,7 @@ const Pokemon = ({ data }) => {
     const router = useRouter()
     console.log(router)
 
-    if (router.isFallBack) {
+    if (router.isFallback) {
         return <p>Cargando...</p>
     }
     return(
@@ -34,7 +34,7 @@ export const getStaticPaths = async () => {
     ]
     return {
         paths,
-        fallback: true, //'blocking'
+        fallback: 'blocking', //'blocking'
     }
 }
 
