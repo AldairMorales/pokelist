@@ -1,4 +1,4 @@
 {
     "presets": ["next/babel"],
-    "plugins": ["styled-commponents"]
+    "plugins": ["styled-components"]
 }
